@@ -1,0 +1,28 @@
+{
+  "name": "firebaseauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "rm -rf dist/ && node ./esbuild.config.js && cp src/index.html dist/",
+    "deploy": "f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedabdulaala/angular4-social-login-9vbjyo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedabdulaala/angular4-social-login-9vbjyo/issues"
+  },
+  "homepage": "https://github.com/syedabdulaala/angular4-social-login-9vbjyo#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "firebase": "^9.6.3",
+    "firebaseui": "^6.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.11"
+  }
+}
